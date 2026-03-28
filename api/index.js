@@ -1,5 +1,4 @@
 require("dotenv").config();
-const app = require("../src/app");
+const app = require("../src/app"); // adjust if app.js is in root: require("../app")
 
-// Vercel serverless entry point.
 module.exports = app;
